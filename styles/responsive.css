@@ -1,0 +1,53 @@
+/* Tablet Responsive */
+/* Header section styles */
+@media screen and (min-width:600px) and (max-width:1113px){
+  .header-section{
+    width: 90%;
+  }
+  .logo-section{
+    width: 100%;
+    gap: 9px;
+  }
+  .logo-section img{
+    width: 28px;
+  }
+  .logo-title{
+    font-size: 21px;
+  }
+  .menu ul{
+    display: flex;
+    gap: 20px;
+  }
+}
+
+
+
+
+
+
+/* Mobile Responsive */
+
+/* Header section styles */
+
+@media screen and (max-width:722px){
+  .header-section{
+    width: 95%;
+  }
+  .logo-section{
+    width: 100%;
+    gap: 9px;
+  }
+  .logo-section img{
+    width: 28px;
+  }
+  .logo-title{
+    font-size: 21px;
+  }
+  .menu ul i{
+    color: black;
+    font-size: 24px;
+  }
+  .menu ul a{
+    display: none;
+  }
+}

@@ -1,0 +1,60 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
+}
+:root{
+  --main-font: "Mulish", sans-serif;
+  --second-font: "Inter", sans-serif;
+  --main-color: #FF5400;
+  --heading-color: #131318;
+  --text-color: rgba(19, 19, 24, 0.70);
+}
+/* Header section styles */
+
+.header-section{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.logo-section{
+  display: flex;
+  width: 30%;
+  gap: 20px;
+  cursor: pointer;
+}
+.logo-section img{
+  width: 48px;
+}
+.logo-title{
+  font-size: 36px;
+  font-family: var(--main-font);
+  color: var(--heading-color);
+  font-weight: 800;
+}
+.logo-section:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
+}
+.menu ul i{
+  color: white;
+}
+
+.menu ul{
+  display: flex;
+  gap: 44px;
+}
+.menu ul a{
+  text-decoration: none;
+  color: #424247;
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 400;
+
+}
+.menu ul a:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.3);
+}
