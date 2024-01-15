@@ -1,50 +1,51 @@
 /* Tablet Responsive */
 /* Header section styles */
-@media screen and (min-width:600px) and (max-width:1113px){
-  .header-section{
+@media screen and (min-width: 600px) and (max-width: 1113px) {
+  .header-section {
     width: 90%;
   }
-  .logo-section{
+  .logo-section {
     width: 100%;
     gap: 9px;
   }
-  .logo-section img{
+  .logo-section img {
     width: 28px;
   }
-  .logo-title{
+  .logo-title {
     font-size: 21px;
   }
-  .menu ul{
+  .menu ul {
     display: flex;
     gap: 20px;
   }
   /* Banner section */
-  .banner{
+  .banner {
     width: 90%;
     height: 85vh;
     padding-bottom: 30px;
     margin-bottom: 50px;
   }
-  .banner .banner-title{
+  .banner .banner-title {
     font-size: 30px;
     padding-top: 32px;
     width: 90%;
     margin: 50px auto;
   }
-  .location-search{
+  .location-search {
     width: 90%;
     gap: 20px;
   }
   /* Our Popular Tours section */
-  .Popular-Tours{
+  .Popular-Tours {
     width: 90%;
     flex-direction: column;
     margin-top: -16px;
+    margin-bottom: 24px;
   }
-  .Tours-text-section{
+  .Tours-text-section {
     width: 100%;
   }
-  .ccommon-title{
+  .ccommon-title {
     font-size: 40px;
     margin-bottom: 16px;
   }
@@ -52,97 +53,163 @@
     width: 100%;
     margin-left: 0px;
   }
-  .common-btn{
+  .common-btn {
     margin-bottom: 30px;
   }
-  
+  /* Choose Your Destination section */
+  .Destination-section {
+    width: 90%;
+  }
+  .container {
+    gap: 18px 18px;
+    margin: 18px auto;
+  }
+  /* Why Choose Us section */
+  .travel-card {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .travel-card-secton {
+    gap: 16px 16px;
+    margin-top: 30px;
+  }
+  .text-turess{
+    width: 500px;
+  }
 }
-
-
-
-
-
 
 /* Mobile Responsive */
 
 /* Header section styles */
 
-@media screen and (max-width:722px){
-  .header-section{
+@media screen and (max-width: 722px) {
+  .header-section {
     width: 95%;
   }
-  .logo-section{
+  .logo-section {
     width: 100%;
     gap: 9px;
   }
-  .logo-section img{
+  .logo-section img {
     width: 28px;
   }
-  .logo-title{
+  .logo-title {
     font-size: 21px;
   }
-  .menu ul i{
+  .menu ul i {
     color: black;
     font-size: 24px;
   }
-  .menu ul a{
+  .menu ul a {
     display: none;
   }
 
   /* Banner section  */
-  .banner{
+  .banner {
     width: 95%;
     height: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
   }
-  .banner .banner-title{
+  .banner .banner-title {
     font-size: 22px;
     padding-top: 32px;
     width: 90%;
     margin: auto;
   }
-  .banner .banner-text{
+  .banner .banner-text {
     width: 90%;
     font-size: 14px;
     line-height: 21px;
     margin-top: 5px;
   }
-  .location-search{
+  .location-search {
     width: 80%;
     flex-direction: column;
     gap: 16px;
   }
-  .search-btn{
+  .search-btn {
     justify-content: center;
   }
-  .location-search input, #pet-select, .search-btn{
+  .location-search input,
+  #pet-select,
+  .search-btn {
     width: 90%;
   }
 
   /* Our Popular Tours section */
 
-  .Popular-Tours{
+  .Popular-Tours {
     width: 95%;
     flex-direction: column;
     margin-top: -16px;
+    margin-bottom: 24px;
   }
-  .Tours-text-section{
+  .Tours-text-section {
     width: 100%;
   }
-  .ccommon-title{
+  .ccommon-title {
     font-size: 20px;
     margin-bottom: 16px;
   }
-  .tours-text{
+  .tours-text {
     font-size: 14px;
     margin-bottom: 16px;
   }
-  .tours-images{
+  .tours-images {
     width: 100%;
   }
-  .tours-images{
+  .tours-images {
     margin-top: 24px;
     margin-left: 0px;
   }
+  /* Choose Your Destination section */
+  .Destination-section {
+    width: 95%;
+    overflow: hidden;
+  }
+
+  .popular-text {
+    width: 80%;
+  }
+  .container {
+    margin: 0 auto;
+    gap: 16px 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "Maldives"
+      "Indonesia"
+      "Srilanka"
+      "North-America"
+      "Kashmir"
+      "Bangladesh"
+      "Bandarban";
+  }
+  .container img {
+    width: 95%;
+  }
+  /* Why Choose Us section */
+  .travel-card {
+    width: 95%;
+    margin-bottom: 40px;
+  }
+  .travel-card-secton {
+    gap: 16px 16px;
+    margin-top: 16px;
+  }
+  .Handpicked-title{
+    font-size: 20px;
+  }
+  .card-text{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+
+
+  .discount-text-one{
+    width: 309px;
+  }
+  
 }
