@@ -21,7 +21,7 @@
   /* Banner section */
   .banner {
     width: 90%;
-    height: 85vh;
+    height: 42vh;
     padding-bottom: 30px;
     margin-bottom: 50px;
   }
@@ -118,6 +118,22 @@
   .discount-section-offer .save{
     font-size: 25px;
   }
+  /* Footer section */
+  .footer{
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .text-area hr{
+    width: 560px;
+    margin-bottom: 10px;
+  }
+  .text-area ul{
+    margin-bottom: 10px;
+  }
+  .footer-text{
+    width: 548px;
+  }
 }
 
 
@@ -180,6 +196,8 @@
   #pet-select,
   .search-btn {
     width: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   /* Our Popular Tours section */
@@ -333,5 +351,28 @@
   }
   .discount-section-offer:hover {
     left: 30%;
+  }
+  /* footer section styles */
+  .footer{
+    padding-top: 33px;
+    margin-top: 24px;
+    padding-bottom: 0px;
+  }
+  .footer-text{
+    width: 287px;
+    font-size: 14px;
+  }
+  .text-area hr{
+    width: 335px;
+  }
+  .text-area ul{
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .text-area hr{
+    margin-bottom: 0px;
+  }
+  .text-area ul a{
+    font-size: 20px;
   }
 }
