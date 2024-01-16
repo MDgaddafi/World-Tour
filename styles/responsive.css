@@ -73,10 +73,34 @@
     gap: 16px 16px;
     margin-top: 30px;
   }
-  .text-turess{
+  .text-turess {
     width: 500px;
   }
+  /* Deal &  Discounts section */
+
+  .discount {
+    width: 90%;
+  }
+  .price-table {
+    width: 50%;
+  }
+  .icon-ber {
+    gap: 8px;
+  }
+  .price-table .card-text {
+    width: 370px;
+  }
+  .new-btn-all {
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  /* A Simple Perfect Place To Get Lost section */
+  
 }
+
+
+
+
 
 /* Mobile Responsive */
 
@@ -198,18 +222,60 @@
     gap: 16px 16px;
     margin-top: 16px;
   }
-  .Handpicked-title{
+  .Handpicked-title {
     font-size: 20px;
   }
-  .card-text{
+  .card-text {
     font-size: 14px;
     line-height: 24px;
   }
-
-
-
-  .discount-text-one{
+  .discount-text-one {
     width: 309px;
   }
-  
+
+  /* Deal &  Discounts section */
+  .discount {
+    width: 95%;
+  }
+  .discount-banner-image {
+    height: 500px;
+    margin-top: 16px;
+    align-items: flex-end;
+    padding: 16px 16px;
+  }
+  .margin-top {
+    margin-top: 16px;
+  }
+  .price-table {
+    width: 90%;
+    padding: 13px;
+
+    align-items: center;
+  }
+  .price-table .card-text {
+    width: 254px;
+  }
+  .price-title {
+    font-size: 16px;
+  }
+  .Handpicked-title {
+    font-size: 20px;
+  }
+  .icon-ber {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: start;
+  }
+  .time {
+    margin: 0;
+    padding: 0;
+  }
+  .new-itex {
+    width: 300px;
+  }
+  .new-btn-all{
+    display: none; 
+  }
+  /* A Simple Perfect Place To Get Lost  section */
 }
