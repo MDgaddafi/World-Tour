@@ -1,6 +1,6 @@
 /* Tablet Responsive */
 /* Header section styles */
-@media screen and (min-width: 600px) and (max-width: 1113px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
   .header-section {
     width: 90%;
   }
@@ -80,6 +80,7 @@
 
   .discount {
     width: 90%;
+    padding-bottom: 24px;
   }
   .price-table {
     width: 50%;
@@ -94,10 +95,30 @@
     margin-top: 25px;
     margin-bottom: 50px;
   }
-  /* A Simple Perfect Place To Get Lost section */
-  
-}
+  /* Newsletter Section */
+  .Newsletter-section {
+    width: 90%;
+  }
+  .news-from .tours-text {
+    width: 334px;
+  }
 
+  .discount-section{
+    width: 70%;
+  }
+  .discount-section-offer{
+    width: 210px;
+    height: 99px;
+    top: 73%;
+    left: 40%;
+  }
+  .discount-section-offer h6{
+    font-size: 18px;
+  }
+  .discount-section-offer .save{
+    font-size: 25px;
+  }
+}
 
 
 
@@ -106,7 +127,7 @@
 
 /* Header section styles */
 
-@media screen and (max-width: 722px) {
+@media screen and (max-width: 600px) {
   .header-section {
     width: 95%;
   }
@@ -236,6 +257,7 @@
   /* Deal &  Discounts section */
   .discount {
     width: 95%;
+    margin-bottom: 16px;
   }
   .discount-banner-image {
     height: 500px;
@@ -274,8 +296,42 @@
   .new-itex {
     width: 300px;
   }
-  .new-btn-all{
-    display: none; 
+  .new-btn-all {
+    display: none;
   }
-  /* A Simple Perfect Place To Get Lost  section */
+  /* Newsletter Section */
+  .Newsletter-section {
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .news-from {
+    width: auto;
+    height: auto;
+    padding: 24px;
+  }
+  .news-from input {
+  }
+  .news-from .tours-text {
+    width: auto;
+  }
+  .discount-section {
+    width: 100%;
+    height: 300px;
+  }
+  .discount-section-offer h6 {
+    font-size: 15px;
+  }
+  .discount-section-offer .save {
+    font-size: 21px;
+  }
+  .discount-section-offer {
+    width: 214.023px;
+    height: 79.268px;
+    top: 60%;
+    left: 38%;
+  }
+  .discount-section-offer:hover {
+    left: 30%;
+  }
 }
